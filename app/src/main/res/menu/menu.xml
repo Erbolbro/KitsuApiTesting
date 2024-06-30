@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/animeFragment"
+        android:icon="@drawable/home"
+        android:title="@string/anime" />
+
+    <item
+        android:id="@+id/detailFragment"
+        android:icon="@drawable/book_open"
+        android:title="@string/manga" />
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_item"
+        android:layout_width="370sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center|top"
+        android:maxWidth="200sp"
+        android:maxHeight="200sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.ExtraLarge" />
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="20.20.2024"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="Срочные новости"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="Office ipsum you must be muted. Office ipsum"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/dalee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="читать далее..."
+        android:layout_marginTop="4dp"
+        android:textColor="#51A0D5"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
